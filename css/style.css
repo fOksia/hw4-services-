@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  bottom: 0;
+  box-sizing: border-box;
+}
+
+section {
+  display: flex;
+  justify-content: space-around;
+  width: 900px;
+  padding: 56px 0 66px 0;
+  margin: 0 auto;
+  font-size: 14px;
+}
+
+h1 {
+  display: none;
+}
+
+.item {
+  width: 220px;
+  text-align: center;
+}
+
+.circle {
+  width: 65px;
+  height: 63px;
+  border-radius: 50%;
+  margin: 0 auto;
+  border: 2px solid #1275b9;
+}
+
+.circle:hover {
+  background-color: #fff;
+}
+
+.design {
+  background: url(../icons/Tablet_swipe.png) #1275b9 center no-repeat;
+}
+.design:hover {
+  background-image: url(../icons/Tablet.png);
+}
+
+.customize {
+  background: url(../icons/Settings.png) #1275b9 center no-repeat;
+}
+
+.fast {
+  background: url(../icons/Dashboard.png) #1275b9 center no-repeat;
+}
+
+h2 {
+  color: #000000;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.35px;
+  margin-top: 20px;
+}
+
+p {
+  color: #9d9d9d;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0.35px;
+  margin-top: 22px;
+}
